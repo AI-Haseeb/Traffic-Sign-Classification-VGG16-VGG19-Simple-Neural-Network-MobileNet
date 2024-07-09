@@ -1,13 +1,12 @@
-# Traffic Sign Classification using VGG16
+# Traffic Sign Classification using VGG16, VGG19, Simple Neural Network, and MobileNet
 
-This project focuses on classifying traffic signs using the VGG16 model. The dataset is split into training and testing sets, achieving 95% accuracy after 5 epochs.
+This project focuses on classifying traffic signs using various models: VGG16, VGG19, Simple Neural Network, and MobileNet.
 
 ## Project Structure
 
 - `data/`: Contains the entire dataset.
 - `train/`: Contains 80% of the data for training.
 - `test/`: Contains 20% of the data for testing.
-- `traffic-sign-classification-vgg16.ipynb`: Google Colab notebook containing the project code.
 
 ## Steps Overview
 
@@ -24,14 +23,16 @@ This project focuses on classifying traffic signs using the VGG16 model. The dat
 
 4. **Model Building and Training**:
    - Implement the VGG16 model architecture.
-   - Train the model for 5 epochs.
+   - Implement the VGG19 model architecture.
+   - Implement a Simple Neural Network.
+   - Implement the MobileNet architecture.
+   - Train the models for 5 epochs.
 
 5. **Evaluation**:
-   - Achieve 95% accuracy on the test set.
+   - Evaluate the performance of each model on the test set.
 
 ## Usage
 
 To run the project:
-- Open `traffic-sign-classification-vgg16.ipynb` in Google Colab Notebook.
+- Open files in Google Colab Notebook.
 - Follow the step-by-step instructions to execute the code.
-
