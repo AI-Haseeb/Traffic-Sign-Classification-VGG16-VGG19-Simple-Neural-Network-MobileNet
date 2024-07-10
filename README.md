@@ -26,7 +26,7 @@ This project focuses on classifying traffic signs using various models: VGG16, V
    - Implement the VGG19 model architecture.
    - Implement a Simple Neural Network.
    - Implement the MobileNet architecture.
-   - Train the models for 5 epochs.
+   - Train the models for 5 epochs, 15 epochs or 30 epochs.
 
 5. **Evaluation**:
    - Evaluate the performance of each model on the test set.
